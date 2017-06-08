@@ -21,7 +21,8 @@ function romanize(num) {
     }
   }
   //return result;
-  console.log(result);
+  $("#output").empty();
+  $("#output").append("<h3 id='roman-num'>"+result+"</h3>");
 }
 
 
